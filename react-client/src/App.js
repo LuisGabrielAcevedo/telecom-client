@@ -5,7 +5,7 @@ import CitiesWeather from "./components/cities-weather";
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <CurrentWeather />
       <CitiesWeather />
     </div>
