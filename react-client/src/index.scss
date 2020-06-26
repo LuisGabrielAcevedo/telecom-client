@@ -1,0 +1,11 @@
+@import "./assets/variables.scss";
+
+html {
+  background-color: $color-quinary;
+  padding: $spacing-M;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

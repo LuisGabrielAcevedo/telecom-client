@@ -1,0 +1,51 @@
+@import "src/assets/variables.scss";
+
+.card {
+  background-color: white;
+  width: 240px;
+  height: 400px;
+  border-radius: 6px;
+  box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.4);
+  padding: $spacing-XS;
+  &__row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__weather {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &__title {
+    font-weight: 600;
+    font-size: $font-size-L;
+  }
+  &__temp {
+    font-weight: 600;
+    font-size: $font-size-XL;
+  }
+  &__extra {
+    border: 1px solid $color-secondary;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 6px;
+    padding: $spacing-XXS;
+  }
+  &__column {
+    display: flex;
+    flex-direction: column;
+  }
+  &__item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid $color-secondary;
+    padding: $spacing-XXS;
+    margin-top: $spacing-XXS;
+  }
+  &__date {
+    text-transform: capitalize;
+  }
+}
