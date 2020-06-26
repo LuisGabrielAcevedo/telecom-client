@@ -43,6 +43,7 @@ function CurrentWeather() {
     };
     searchData();
   }, []);
+
   return (
     <div>
       <h1>Clima actual:</h1>

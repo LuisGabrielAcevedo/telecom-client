@@ -1,7 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 import MultiSelect from "react-multi-select-component";
 
-function Select({ searchData }) {
+function Select({ setSelected, selected }) {
   const options = [
     { label: "Madrid", value: "Madrid" },
     { label: "Paris", value: "Paris" },
@@ -17,20 +17,13 @@ function Select({ searchData }) {
     search: "Buscar",
   };
 
-  const [selected, setSelected] = useState([]);
-
-  const change = (values) => {
-    setSelected(values);
-    searchData(values);
-  };
-
   return (
     <div style={{ width: "800px" }}>
       <h1>Seleccione las ciudades para buscar el clima:</h1>
       <MultiSelect
         options={options}
         value={selected}
-        onChange={change}
+        onChange={setSelected}
         labelledBy={"Ciudades"}
         overrideStrings={tl}
       />
