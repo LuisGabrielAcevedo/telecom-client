@@ -1,7 +1,7 @@
 import React from "react";
 import "@testing-library/jest-dom";
 import { shallow } from "enzyme";
-import Card from "../../../components/common/Card";
+import Card from "../../../components/common/CardComponent";
 import formattedWeatherResp from "../../mocks/formattedWeatherResp.mock";
 import { format } from "date-fns";
 import { es } from "date-fns/locale";

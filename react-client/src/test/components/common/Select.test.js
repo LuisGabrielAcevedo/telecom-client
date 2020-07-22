@@ -1,7 +1,7 @@
 import React from "react";
 import "@testing-library/jest-dom";
 import { shallow } from "enzyme";
-import Select from "../../../components/common/Select";
+import Select from "../../../components/common/SelectComponent";
 import { countries } from "../../../constants";
 
 describe("Select Component test", () => {

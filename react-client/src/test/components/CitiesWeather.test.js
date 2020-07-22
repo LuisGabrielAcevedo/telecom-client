@@ -1,7 +1,7 @@
 import React from "react";
 import "@testing-library/jest-dom";
 import { shallow, mount } from "enzyme";
-import CitiesWeather from "../../components/CitiesWeather";
+import CitiesWeather from "../../components/CitiesWeatherComponent";
 import { act } from "react-dom/test-utils";
 
 describe("CitiesWeather Component tests", () => {

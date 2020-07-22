@@ -1,7 +1,7 @@
 import React from "react";
 import "@testing-library/jest-dom";
 import { shallow, mount } from "enzyme";
-import CurrentWeather from "../../components/CurrentWeather";
+import CurrentWeather from "../../components/CurrentWeatherComponent";
 import { act } from "react-dom/test-utils";
 
 describe("CurrentWeather Component tests", () => {

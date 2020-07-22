@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-import Card from "./common/Card";
-import Loading from "./common/Loading";
+import Card from "./common/CardComponent";
+import Loading from "./common/LoadingComponent";
 import { getCurrentWeather } from "../helpers";
 
 function CurrentWeather() {

@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
-import Select from "./common/Select";
-import Card from "./common/Card";
+import Select from "./common/SelectComponent";
+import Card from "./common/CardComponent";
 import "./cities-weather.scss";
-import Loading from "./common/Loading";
+import Loading from "./common/LoadingComponent";
 import { getWeatherByCity } from "../helpers";
 
 function CitiesWeather() {

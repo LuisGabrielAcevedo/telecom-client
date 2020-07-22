@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.scss";
-import CurrentWeather from "./components/CurrentWeather";
-import CitiesWeather from "./components/CitiesWeather";
+import CurrentWeather from "./components/CurrentWeatherComponent";
+import CitiesWeather from "./components/CitiesWeatherComponent";
 
 function App() {
   return (
