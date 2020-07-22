@@ -3,7 +3,7 @@ import Select from "./common/Select";
 import Card from "./common/Card";
 import "./cities-weather.scss";
 import Loading from "./common/Loading";
-import { getWeatherByCity } from "src/helpers";
+import { getWeatherByCity } from "../helpers";
 
 function CitiesWeather() {
   const [data, setData] = useState([]);

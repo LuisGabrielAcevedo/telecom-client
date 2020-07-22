@@ -6,7 +6,7 @@ import {
   getForecastByPositionApi,
   getWeatherByCityApi,
   getForecastByCityApi,
-} from "src/api";
+} from "../../api";
 
 describe("Api index.js test", () => {
   const successPromise = (resp) =>

@@ -3,7 +3,7 @@ import {
   getForecastByPositionApi,
   getWeatherByCityApi,
   getForecastByCityApi,
-} from "src/api";
+} from "../api";
 
 export const getNextDaysWeatherByPosition = async (lat, lon) => {
   const resp = await getForecastByPositionApi(lat, lon);

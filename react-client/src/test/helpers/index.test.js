@@ -3,7 +3,7 @@ import {
   getCurrentWeather,
   getNextDaysWeatherByPosition,
   getNextDaysWeather,
-} from "src/helpers";
+} from "../../helpers";
 import weatherResp from "../mocks/weatherResp.mock";
 import forecastResp from "../mocks/forecastResp.mock";
 

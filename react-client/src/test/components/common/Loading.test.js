@@ -1,7 +1,7 @@
 import React from "react";
 import "@testing-library/jest-dom";
 import { shallow } from "enzyme";
-import Loading from "src/components/common/Loading";
+import Loading from "../../../components/common/Loading";
 
 describe("Loading Component test", () => {
   const wrapper = shallow(<Loading repeat={4} />);

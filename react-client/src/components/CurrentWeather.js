@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Card from "./common/Card";
 import Loading from "./common/Loading";
-import { getCurrentWeather } from "src/helpers";
+import { getCurrentWeather } from "../helpers";
 
 function CurrentWeather() {
   const [data, setData] = useState(null);

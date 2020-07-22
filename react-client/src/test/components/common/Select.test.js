@@ -1,8 +1,8 @@
 import React from "react";
 import "@testing-library/jest-dom";
 import { shallow } from "enzyme";
-import Select from "src/components/common/Select";
-import { countries } from "src/constants";
+import Select from "../../../components/common/Select";
+import { countries } from "../../../constants";
 
 describe("Select Component test", () => {
   const selected = { label: "Madrid", value: "Madrid" };

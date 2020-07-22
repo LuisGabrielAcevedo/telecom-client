@@ -1,6 +1,6 @@
 import React from "react";
 import MultiSelect from "react-multi-select-component";
-import { countries, selectLabels } from "src/constants";
+import { countries, selectLabels } from "../../constants";
 
 function Select({ setSelected, selected }) {
   const options = countries;

@@ -1,7 +1,7 @@
 import React from "react";
 import "@testing-library/jest-dom";
 import { shallow, mount } from "enzyme";
-import CitiesWeather from "src/components/CitiesWeather";
+import CitiesWeather from "../../components/CitiesWeather";
 import { act } from "react-dom/test-utils";
 
 describe("CitiesWeather Component tests", () => {
@@ -10,7 +10,7 @@ describe("CitiesWeather Component tests", () => {
     expect(wrapper).toMatchSnapshot();
   });
 
-  it("", async () => {
+  it("should distpatch the hooks and update the component", async () => {
     const wrapper = mount(<CitiesWeather />);
     await act(async () => wrapper);
     wrapper.update();

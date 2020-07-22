@@ -1,4 +1,4 @@
-import { BASE_URL, APP_KEY } from "src/constants";
+import { BASE_URL, APP_KEY } from "../constants";
 
 export const getWeatherByPositionApi = async (lat, lon) => {
   try {
