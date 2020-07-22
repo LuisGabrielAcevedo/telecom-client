@@ -29,7 +29,7 @@ export const getCurrentWeather = async (lat, lon) => {
   return data;
 };
 
-const getNextDaysWeather = async (city) => {
+export const getNextDaysWeather = async (city) => {
   const resp = await getForecastByCityApi(city);
   resp.list = resp.list.filter((i) => i.dt_txt.includes("00:00:00"));
   return resp;
