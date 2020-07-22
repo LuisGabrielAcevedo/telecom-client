@@ -1,21 +1,10 @@
 import React from "react";
 import MultiSelect from "react-multi-select-component";
+import { countries, selectLabels } from "src/constants";
 
 function Select({ setSelected, selected }) {
-  const options = [
-    { label: "Madrid", value: "Madrid" },
-    { label: "Paris", value: "Paris" },
-    { label: "Praga", value: "Praga" },
-    { label: "Sao Paulo", value: "Sao Paulo" },
-    { label: "Lima", value: "Lima" },
-  ];
-
-  const tl = {
-    selectSomeItems: "Seleccione...",
-    allItemsAreSelected: "Todos las cuidades estan seleccionados",
-    selectAll: "Seleccione todas las ciudades",
-    search: "Buscar",
-  };
+  const options = countries;
+  const labels = selectLabels;
 
   return (
     <div style={{ width: "800px" }}>
@@ -25,7 +14,7 @@ function Select({ setSelected, selected }) {
         value={selected}
         onChange={setSelected}
         labelledBy={"Ciudades"}
-        overrideStrings={tl}
+        overrideStrings={labels}
       />
     </div>
   );

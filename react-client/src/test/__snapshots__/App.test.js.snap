@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Component tests should init the component 1`] = `
+<div>
+  <CurrentWeather />
+  <CitiesWeather />
+</div>
+`;

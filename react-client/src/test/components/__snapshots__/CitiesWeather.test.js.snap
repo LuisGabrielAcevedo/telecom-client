@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CitiesWeather Component tests should init the component 1`] = `
+<div>
+  <Select
+    selected={Array []}
+    setSelected={[Function]}
+  />
+  <div
+    className="cities-weather__items"
+  />
+</div>
+`;

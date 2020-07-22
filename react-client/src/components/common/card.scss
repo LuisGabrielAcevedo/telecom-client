@@ -12,11 +12,6 @@
     align-items: center;
     justify-content: space-between;
   }
-  &__weather {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
   &__title {
     font-weight: 600;
     font-size: $font-size-L;
@@ -32,6 +27,7 @@
     justify-content: space-between;
     border-radius: 6px;
     padding: $spacing-XXS;
+    margin-top: $spacing-S;
   }
   &__column {
     display: flex;

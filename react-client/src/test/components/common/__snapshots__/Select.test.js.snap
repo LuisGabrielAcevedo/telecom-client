@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Select Component test the component should be initialized 1`] = `
+<div
+  style={
+    Object {
+      "width": "800px",
+    }
+  }
+>
+  <h1>
+    Seleccione las ciudades para buscar el clima:
+  </h1>
+  <MultiSelect
+    labelledBy="Ciudades"
+    onChange={[MockFunction]}
+    options={
+      Array [
+        Object {
+          "label": "Madrid",
+          "value": "Madrid",
+        },
+        Object {
+          "label": "Paris",
+          "value": "Paris",
+        },
+        Object {
+          "label": "Praga",
+          "value": "Praga",
+        },
+        Object {
+          "label": "Sao Paulo",
+          "value": "Sao Paulo",
+        },
+        Object {
+          "label": "Lima",
+          "value": "Lima",
+        },
+      ]
+    }
+    overrideStrings={
+      Object {
+        "allItemsAreSelected": "Todos las cuidades estan seleccionados",
+        "search": "Buscar",
+        "selectAll": "Seleccione todas las ciudades",
+        "selectSomeItems": "Seleccione...",
+      }
+    }
+    value={
+      Object {
+        "label": "Madrid",
+        "value": "Madrid",
+      }
+    }
+  />
+</div>
+`;

@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CurrentWeather Component tests should init the component 1`] = `
+<div>
+  <h1>
+    Clima actual:
+  </h1>
+  <Loading
+    repeat={1}
+  />
+</div>
+`;

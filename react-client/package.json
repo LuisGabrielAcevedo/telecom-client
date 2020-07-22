@@ -7,18 +7,17 @@
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
     "date-fns": "^2.14.0",
-    "lgx-axios-dev-tools": "^1.0.3",
     "node-sass": "^4.14.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-multi-select-component": "^2.0.11",
-    "react-scripts": "3.4.1",
-    "weather-icons-react": "^1.2.0"
+    "react-scripts": "3.4.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "test-ci": "react-scripts test --watchAll=false --coverage --coverageDirectory=coverage/unit",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -34,6 +33,20 @@
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@testing-library/react-hooks": "^3.3.0",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "enzyme-to-json": "^3.5.0"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "!src/index.js",
+      "!src/**/*.js.snap",
+      "!src/**/*.mock.js",
+      "src/**/*.js"
     ]
   }
 }

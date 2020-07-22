@@ -1,0 +1,114 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card Component tests the component should be initialized 1`] = `
+<div
+  className="card"
+>
+  <div
+    className="card__row"
+  >
+    <span
+      className="card__title"
+    >
+      Buenos Aires F.D.
+    </span>
+    <span
+      className="card__temp"
+    >
+      13.57
+       °
+    </span>
+  </div>
+  <div
+    className="card__extra"
+  >
+    <div
+      className="card__column"
+    >
+      <span>
+        Viento
+      </span>
+      <span>
+        1
+         Km/h
+      </span>
+    </div>
+    <div
+      className="card__column"
+    >
+      <span>
+        Humedad
+      </span>
+      <span>
+        100
+         %
+      </span>
+    </div>
+  </div>
+  <div
+    className="card__item"
+    key="0"
+  >
+    <span
+      className="card__date"
+    >
+      21 martes
+    </span>
+    <span>
+      14.12
+    </span>
+  </div>
+  <div
+    className="card__item"
+    key="1"
+  >
+    <span
+      className="card__date"
+    >
+      22 miércoles
+    </span>
+    <span>
+      14.60
+    </span>
+  </div>
+  <div
+    className="card__item"
+    key="2"
+  >
+    <span
+      className="card__date"
+    >
+      23 jueves
+    </span>
+    <span>
+      12.48
+    </span>
+  </div>
+  <div
+    className="card__item"
+    key="3"
+  >
+    <span
+      className="card__date"
+    >
+      24 viernes
+    </span>
+    <span>
+      9.28
+    </span>
+  </div>
+  <div
+    className="card__item"
+    key="4"
+  >
+    <span
+      className="card__date"
+    >
+      25 sábado
+    </span>
+    <span>
+      11.38
+    </span>
+  </div>
+</div>
+`;

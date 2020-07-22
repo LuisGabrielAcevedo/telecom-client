@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Loading Component test the component should be initialized 1`] = `
+Array [
+  <div
+    className="loading"
+    key="0"
+  />,
+  <div
+    className="loading"
+    key="1"
+  />,
+  <div
+    className="loading"
+    key="2"
+  />,
+  <div
+    className="loading"
+    key="3"
+  />,
+]
+`;

@@ -2,10 +2,9 @@ import React from "react";
 import "./card.scss";
 import { format } from "date-fns";
 import { es } from "date-fns/locale";
-import Weather from "./weather";
 
 function Card(props) {
-  const { title, temp, wind, humidity, nextDays, weather } = props;
+  const { title, temp, wind, humidity, nextDays } = props;
 
   const formattedTemp = (_temp) => (_temp - 273).toFixed(2);
 
@@ -18,9 +17,6 @@ function Card(props) {
       <div className="card__row">
         <span className="card__title">{title}</span>
         <span className="card__temp">{formattedTemp(temp)} °</span>
-      </div>
-      <div className="card__weather">
-        <Weather icon={weather} size={60} />
       </div>
       <div className="card__extra">
         <div className="card__column">
@@ -36,7 +32,6 @@ function Card(props) {
         <div key={i} className="card__item">
           <span className="card__date">{formattedDate(item.dt_txt)}</span>
           <span>{formattedTemp(item.main.temp)}</span>
-          <Weather icon={item.weather[0].main} size={24} />
         </div>
       ))}
     </div>
@@ -44,3 +39,11 @@ function Card(props) {
 }
 
 export default Card;
+
+Card.defaultProps = {
+  title: "",
+  temp: 0,
+  wind: 0,
+  humidity: 0,
+  nextDays: [],
+};

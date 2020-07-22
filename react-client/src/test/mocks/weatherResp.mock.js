@@ -1,0 +1,28 @@
+export default {
+  coord: { lon: -58.45, lat: -34.61 },
+  weather: [{ id: 701, main: "Mist", description: "mist", icon: "50n" }],
+  base: "stations",
+  main: {
+    temp: 286.73,
+    feels_like: 285.59,
+    temp_min: 286.15,
+    temp_max: 287.15,
+    pressure: 1011,
+    humidity: 100,
+  },
+  visibility: 2500,
+  wind: { speed: 3.23, deg: 138 },
+  clouds: { all: 90 },
+  dt: 1595375551,
+  sys: {
+    type: 1,
+    id: 8224,
+    country: "AR",
+    sunrise: 1595328896,
+    sunset: 1595365510,
+  },
+  timezone: -10800,
+  id: 3433955,
+  name: "Buenos Aires F.D.",
+  cod: 200,
+};
