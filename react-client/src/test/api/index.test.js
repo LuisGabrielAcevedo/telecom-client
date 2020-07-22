@@ -8,7 +8,7 @@ import {
   getForecastByCityApi,
 } from "src/api";
 
-describe("helpers index.js test", () => {
+describe("Api index.js test", () => {
   const successPromise = (resp) =>
     jest.fn(() =>
       Promise.resolve({
